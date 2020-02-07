@@ -1,6 +1,10 @@
-@extends('layouts.app')
+@extends('template')
 
-@section('content')
+@section('page_title')
+
+@endsection
+
+@section('page_body')
     <section class="content-header">
         <h1>
             $MODEL_NAME_HUMAN$
@@ -16,4 +20,13 @@
             </div>
         </div>
     </div>
+@endsection
+
+
+@section('page_modal')
+
+@endsection
+
+@section('page_script')
+
 @endsection

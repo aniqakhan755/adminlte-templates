@@ -1,6 +1,11 @@
-@extends('layouts.app')
+@extends('template')
 
-@section('content')
+@section('page_title')
+
+@endsection
+
+@section('page_body')
+
     <section class="content-header">
         <h1>
             @lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')
@@ -21,3 +26,11 @@
         </div>
     </div>
 @endsection
+@section('page_modal')
+
+@endsection
+
+@section('page_script')
+
+@endsection
+

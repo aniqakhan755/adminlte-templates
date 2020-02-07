@@ -1,6 +1,10 @@
-@extends('layouts.app')
+@extends('template')
 
-@section('content')
+@section('page_title')
+
+@endsection
+
+@section('page_body')
     <section class="content-header">
         <h1 class="pull-left">$MODEL_NAME_PLURAL_HUMAN$</h1>
         <h1 class="pull-right">
@@ -22,5 +26,13 @@
         $PAGINATE$
         </div>
     </div>
+@endsection
+
+@section('page_modal')
+
+@endsection
+
+@section('page_script')
+
 @endsection
 
