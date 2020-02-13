@@ -12,6 +12,8 @@
     </section>
     <div class="content">
         <div class="card card-primary">
+          <div class= "card-header">
+                </div>
             <div class="card-body">
                 <div class="row" style="padding-left: 20px">
                     @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.show_fields')
