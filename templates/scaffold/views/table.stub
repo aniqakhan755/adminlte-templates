@@ -1,8 +1,8 @@
-<table class="table-responsive table-striped table-bordered ">
+<table class="table table-striped table-bordered ">
     <thead>
         <tr>
             $FIELD_HEADERS$
-            <th colspan="3">Action</th>
+            <th>Action</th>
         </tr>
     </thead>
     <tbody>
