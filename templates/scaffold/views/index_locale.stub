@@ -19,8 +19,9 @@
         @include('flash::message')
 
         <div class="clearfix"></div>
-        <div class="card card-primary">
+        <div class="card card-default">
           <div class= "card-header">
+
                 </div>
             <div class="card-body">
                     @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.table')
