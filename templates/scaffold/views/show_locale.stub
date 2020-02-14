@@ -6,9 +6,7 @@
 
 @section('page_body')
     <section class="content-header">
-        <h1>
-            @lang('models/$MODEL_NAME_PLURAL_CAMEL$.singular')
-        </h1>
+
     </section>
     <div class="content">
         <div class="card card-default">
